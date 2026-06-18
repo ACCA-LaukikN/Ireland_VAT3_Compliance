@@ -1,0 +1,7 @@
+# Irish VAT3 Compliance Tool — Dependencies
+# All modules used are part of the Python standard library.
+# No external packages required.
+
+# sqlite3  — built-in
+# datetime — built-in
+# calendar — built-in
