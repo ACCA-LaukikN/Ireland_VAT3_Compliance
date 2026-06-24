@@ -1,6 +1,6 @@
 # Irish VAT3 Compliance Tool
 
-A Python and SQLite project that models end-to-end Irish VAT compliance — from recording transactions to generating a formatted VAT3 return, as filed with Revenue Ireland via ROS.
+A Python and SQLite project that models end-to-end Irish VAT compliance covering processes from recording transactions to generating a formatted VAT3 return, as filed with Revenue Ireland via ROS.
 
 Built as a portfolio project to demonstrate practical knowledge of Irish tax law, accounting workflows, and database design.
 
@@ -47,7 +47,7 @@ Built as a portfolio project to demonstrate practical knowledge of Irish tax law
 
 ## Reverse charge explained
 
-When purchasing from an EU supplier outside Ireland, the supplier cannot charge Irish VAT. Under Irish VAT law, the buyer self-accounts — declaring the VAT as both output (T1) and input (T2). This means no net cash impact, but the transaction must still appear on the VAT3 return and the net value is reported in E2.
+When purchasing from an EU supplier outside Ireland, the supplier cannot charge Irish VAT. Under Irish VAT law, the buyer self-accounts, declaring the VAT as both output (T1) and input (T2). This means no net cash impact, but the transaction must still appear on the VAT3 return and the net value is reported in E2.
 
 ---
 
@@ -67,7 +67,7 @@ irish-vat3-tool/
 
 ## How to run
 
-**Requirements:** Python 3.8 or higher. No external packages needed — uses only Python standard library.
+**Requirements:** Python 3.8 or higher. No external packages needed, it uses only Python standard library.
 
 ```bash
 git clone https://github.com/yourusername/irish-vat3-tool.git
